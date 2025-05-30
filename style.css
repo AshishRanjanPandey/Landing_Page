@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Anton', monospace;
+  background: #e6e6e6;
+  color: #111;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background: #e6e6e6;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #3f5b3f;
+}
+
+.navbar nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.contact-btn {
+  background-color: #3f5b3f;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hero-text {
+  flex: 1 1 40%;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.1;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.freelance-note {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+}
+
+.book-call {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #111;
+}
+
+.arrow {
+  width: 2rem;
+  height: 2rem;
+  background-color: #3f5b3f;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+/* Work Grid */
+.work-grid {
+  flex: 1 1 50%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.work-grid img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.more-works {
+  grid-column: span 2;
+  text-align: right;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3f5b3f;
+  align-self: end;
+}
+#he1{
+    font-size: 160px;
+    font-style: 'Anton';
+
+}
